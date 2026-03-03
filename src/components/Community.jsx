@@ -51,10 +51,10 @@ export default function Community() {
                             <motion.a
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                href="#registracija"
+                                href="#kontaktai"
                                 className="bg-white text-gray-900 px-10 py-5 rounded-full font-bold text-lg shadow-xl shadow-white/10 hover:shadow-white/20 transition-all text-center group"
                             >
-                                Prisijungti
+                                Susisiekti
                                 <span className="inline-block ml-3 group-hover:translate-x-1 transition-transform">→</span>
                             </motion.a>
 

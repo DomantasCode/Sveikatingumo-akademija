@@ -11,8 +11,7 @@ import Contact from './components/Contact';
 const navLinks = [
   { name: 'Programos', href: '#paslaugos' },
   { name: 'Aktualijos', href: '#sklaida' },
-  { name: 'Bendruomenė', href: '#bendruomene' },
-  { name: 'Kontaktai', href: '#kontaktai' }
+  { name: 'Bendruomenė', href: '#bendruomene' }
 ];
 
 function Navigation() {
@@ -57,10 +56,10 @@ function Navigation() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#registracija"
+              href="#kontaktai"
               className="bg-gray-900 text-white hover:bg-primary px-8 py-3 rounded-full text-sm font-bold shadow-xl transition-colors relative overflow-hidden group block"
             >
-              <span className="relative z-10">Prisijungti</span>
+              <span className="relative z-10">Susisiekti</span>
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-orange-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-0"></div>
             </motion.a>
           </div>
@@ -104,11 +103,11 @@ function Navigation() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
-                href="#registracija"
+                href="#kontaktai"
                 className="bg-primary text-white text-xl px-6 py-4 rounded-full font-bold text-center mt-4 w-full shadow-lg"
                 onClick={() => setIsOpen(false)}
               >
-                Prisijungti dabar
+                Susisiekti dabar
               </motion.a>
             </div>
           </motion.div>
@@ -182,7 +181,7 @@ function App() {
       <div className="fixed inset-0 noise-overlay z-50"></div>
       <Navigation />
 
-      <main className="flex-grow pt-20 sm:pt-32">
+      <main className="flex-grow pt-8 sm:pt-20">
         <div className="mb-20 sm:mb-32">
           <Hero />
         </div>

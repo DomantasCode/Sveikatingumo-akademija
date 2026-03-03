@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
     return (
-        <section className="relative min-h-[100vh] lg:min-h-[90vh] flex items-center bg-background-warm overflow-hidden pt-32 pb-16 lg:pt-0 lg:pb-0">
+        <section className="relative min-h-[100vh] lg:min-h-[90vh] flex items-center bg-background-warm overflow-hidden pt-16 pb-16 lg:pt-0 lg:pb-0">
             <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
@@ -37,10 +37,10 @@ export default function Hero() {
                             <motion.a
                                 whileHover={{ scale: 1.02, y: -2 }}
                                 whileTap={{ scale: 0.98 }}
-                                href="#registracija"
+                                href="#kontaktai"
                                 className="bg-gray-900 text-white px-8 py-4 rounded-full font-bold text-base hover:bg-black transition-all text-center shadow-xl shadow-gray-900/20"
                             >
-                                Pradėti sportuoti
+                                Susisiekti su mumis
                             </motion.a>
                         </div>
                     </motion.div>

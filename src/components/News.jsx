@@ -40,7 +40,7 @@ export default function News() {
 
                         {/* Trust Badge */}
                         <div className="absolute top-6 left-6 bg-white/20 backdrop-blur-md border border-white/30 text-white px-5 py-2 rounded-full font-bold uppercase tracking-widest text-xs shadow-xl">
-                            Savivaldybės Projektas
+                            Vilniaus M. Savivaldybė
                         </div>
                     </div>
 
@@ -48,16 +48,16 @@ export default function News() {
                     <div className="w-full md:w-1/2 flex flex-col justify-center">
                         <div className="text-secondary font-bold tracking-widest text-xs uppercase mb-4 flex items-center gap-2">
                             <span className="w-2 h-2 rounded-full bg-secondary"></span>
-                            Paskelbta: 2024 m. Gegužės 15 d.
+                            Paskelbta: 2024 m. Rugsėjo 10 d.
                         </div>
 
                         <h3 className="text-2xl sm:text-4xl font-heading font-extrabold text-gray-900 mb-4 sm:mb-6 leading-tight group-hover:text-primary transition-colors duration-500">
-                            Didžioji Sporto Šventė Vingio Parke Subūrė Šimtus Lietuvos Šeimų
+                            Sveikatingumo Akademija Laimėjo Vilniaus Miesto Finansavimą Projektui
                         </h3>
 
                         <div className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 font-medium">
                             <p className="mb-4">
-                                Šį savaitgalį Vingio parke įvyko rekordinė sporto šventė, kur Lietuvos vaikai ir tėvai mokėsi judėjimo džiaugsmo tyrame ore. Nuo azartiškų kliūčių ruožų iki bendrų kineziterapijos mankštų po atviru dangumi – kiekviena akimirka alsavo sveikata, bendryste ir tikromis emocijomis.
+                                Džiaugiamės galėdami pranešti, kad mūsų akademija sėkmingai laimėjo Vilniaus miesto savivaldybės skelbtą sveikatingumo projektų finansavimo konkursą. Šis pasiekimas leis mums dar labiau išplėsti veiklas, įsigyti moderniausios įrangos ir suteikti galimybę sportuoti dar didesniam vaikų skaičiui.
                             </p>
 
                             <AnimatePresence>
@@ -70,10 +70,10 @@ export default function News() {
                                         className="overflow-hidden"
                                     >
                                         <p className="mt-4">
-                                            Renginio metu treneriai dalijosi naudingais patarimais apie taisyklingos laikysenos svarbą ir supažindino tėvus su pratimais, kuriuos galima atlikti tiesiog namuose. Ypatingo dėmesio sulaukė inovatyvi judesio terapijos zona, pritaikyta net patiems mažiausiems dalyviams.
+                                            Projekto lėšos bus tiesiogiai nukreiptos į nemokamų atvirų treniruočių ciklų organizavimą bendruomenėms bei inovatyvios kineziterapinės bazės kūrimą, kuri iš esmės keis požiūrį į ankstyvąjį vaikų fizinį ugdymą ir laikysenos formavimą.
                                         </p>
                                         <p className="mt-4 font-bold text-gray-900">
-                                            Tikimės greitai pamatyti jus mūsų naujose pavasario treniruotėse!
+                                            Ačiū už pasitikėjimą – mes toliau keičiame Lietuvos vaikų ateitį!
                                         </p>
                                     </motion.div>
                                 )}
