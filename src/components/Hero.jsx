@@ -53,7 +53,7 @@ export default function Hero() {
                         className="relative h-[400px] sm:h-[500px] lg:h-[700px] rounded-[2rem] lg:rounded-[3rem] overflow-hidden shadow-2xl mt-8 lg:mt-0"
                     >
                         <img
-                            src="/images/lt_family_sports_1772479150585.png"
+                            src="/images/lt_hero_natural_family.png"
                             alt="Šeima bėgioja parke"
                             className="w-full h-full object-cover"
                         />
